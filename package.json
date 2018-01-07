@@ -1,0 +1,19 @@
+{
+  "name": "test-functionality",
+  "version": "1.0.0",
+  "description": "1 crud json user 2 crud sqlite3 plane 3 crud postgres rocket 4 crud mongo ship 5 crud redis spacehouse",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "morgan": "^1.9.0"
+  }
+}
