@@ -1,4 +1,4 @@
-const Plane = require('../models/Plane.js')
+const Plane = require('../db/Plane.js')
 
 const welcomePage = (req, res) => {
   res.json({

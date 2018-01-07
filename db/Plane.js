@@ -1,5 +1,5 @@
 const sqlite3    = require('sqlite3').verbose();
-const db         = new sqlite3.Database('./models/Plane.db');
+const db         = new sqlite3.Database('./db/Plane.db');
 
 class Plane {
   static addPlane (data, cb) {

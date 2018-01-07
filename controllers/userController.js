@@ -1,5 +1,5 @@
-const User = require('../models/User.json')
-const file = './models/User.json'
+const User = require('../db/User.json')
+const file = './db/User.json'
 const fs = require('fs');
 
 const welcomePage = (req, res) => {

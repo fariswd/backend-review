@@ -7,5 +7,5 @@
 3 crud postgres rocket
 - sequelize init & edit config postgres
 
-4 crud mongo ship
+4 crud mongo spaceship
 5 crud redis spacehouse

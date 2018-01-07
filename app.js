@@ -4,6 +4,7 @@ const morgan = require('morgan')
 
 const userRoute = require('./routers/userRoute')
 const planeRoute = require('./routers/planeRoute')
+const rocketRouter = require('./routers/rocketRoute')
 
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false })) // parse application/x-www-form-urlencoded
@@ -17,5 +18,6 @@ app.get('/', (req, res) => {
 
 app.use('/user', userRoute)
 app.use('/plane', planeRoute)
+app.use('/rocket', rocketRouter)
 
 app.listen(3000, () => console.log('running on 3000'))
