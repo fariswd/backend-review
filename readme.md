@@ -4,19 +4,21 @@
 ## CRUD json (user)  
 Description: Using fs.readfile read and write json  
 Endpoint: /user  
-| Endpoint | HTTP | Require | Desc |
-|----------|------|---------|------|
-| /v       | GET  | -       | get API version |
-| /        | POST | {json}  | add new user |
-| /        | GET  | -       | get all users |
-| /:id     | GET  | params  | get specific user |
-| /:id     | PUT  | params, {json}  | edit specific user |
-| /:id     | DELETE  | params  | delete specific user |
+
+| Endpoint   | HTTP    | Require         | Description |
+| ---------- | ------  | --------------- | ------          |
+| /v         | GET     | -               | get API version |
+| /          | POST    | {json}          | add new user |
+| /          | GET     | -               | get all users |
+| /:id       | GET     | params          | get specific user |
+| /:id       | PUT     | params, {json}  | edit specific user |
+| /:id       | DELETE  | params          | delete specific user |
 
 ## CRUD sqlite3 (plane)
 Description: Using sqlite3 for CRUD plane database  
 note: run config.js  
 Endpoint: /plane  
+
 | Endpoint | HTTP | Require | Desc |
 |----------|------|---------|------|
 | /v       | GET  | -       | get API version |
@@ -30,6 +32,7 @@ Endpoint: /plane
 Description: Using postgres for CRUD rocket database  
 note: sequelize init & edit config postgres  
 Endpoint: /rocket  
+
 | Endpoint | HTTP | Require | Desc |
 |----------|------|---------|------|
 | /v       | GET  | -       | get API version |
@@ -42,6 +45,7 @@ Endpoint: /rocket
 ## CRUD mongodb (spaceship)
 Description: Using mongodb for CRUD spaceship database  
 Endpoint: /spaceship  
+
 | Endpoint | HTTP | Require | Desc |
 |----------|------|---------|------|
 | /v       | GET  | -       | get API version |
@@ -54,6 +58,7 @@ Endpoint: /spaceship
 ## CRUD redis (spacehouse)
 Description: Using redis for CRUD spacehouse database    
 Endpoint: /spacehouse  
+
 | Endpoint | HTTP | Require | Desc |
 |----------|------|---------|------|
 | /v       | GET  | -       | get API version |
